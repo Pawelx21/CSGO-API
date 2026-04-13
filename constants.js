@@ -23,16 +23,16 @@ export const IMAGES_INVENTORY_URL =
     "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/images.json";
 
 export const LANGUAGES_URL = [
-    {
-        language: "english",
-        folder: "en",
-        url: getLanguageUrl("english"),
-    },
-    {
-        language: "schinese",
-        folder: "zh-CN",
-        url: getLanguageUrl("schinese"),
-    },
+    // {
+    //     language: "english",
+    //     folder: "en",
+    //     url: getLanguageUrl("english"),
+    // },
+    // {
+    //     language: "schinese",
+    //     folder: "zh-CN",
+    //     url: getLanguageUrl("schinese"),
+    // },
     // {
     //     language: "portuguese (Brazil)",
     //     folder: "pt-BR",
@@ -128,11 +128,11 @@ export const LANGUAGES_URL = [
     //     folder: "pirate",
     //     url: getLanguageUrl("pirate"),
     //   },
-    // {
-    //     language: "polish",
-    //     folder: "pl",
-    //     url: getLanguageUrl("polish"),
-    // },
+    {
+        language: "polish",
+        folder: "pl",
+        url: getLanguageUrl("polish"),
+    },
     // {
     //     language: "portuguese",
     //     folder: "pt-PT",
